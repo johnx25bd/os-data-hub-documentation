@@ -31,8 +31,8 @@ In Terminal on Mac, or :
 ```bash
 git clone git@github.com:johnx25bd/os-data-hub-documentation.git
 cd os-data-hub-documentation
-npm install
-npm run start
+yarn install
+yarn start
 ```
 
 And that's it! You should have the site running on `http://localhost:3000/`
