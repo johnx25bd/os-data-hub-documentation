@@ -1,27 +1,29 @@
 module.exports = {
-  title: 'My Site',
+  title: 'OS Data Hub Documentation',
   tagline: 'The tagline of my site',
   url: 'https://your-docusaurus-test-site.com',
   baseUrl: '/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/favicon.ico',
-  organizationName: 'facebook', // Usually your GitHub org/user name.
-  projectName: 'docusaurus', // Usually your repo name.
+  organizationName: 'OrdnanceSurvey', // Usually your GitHub org/user name.
+  projectName: 'os-data-hub-documentation', // Usually your repo name.
   themeConfig: {
+    hideableSidebar: true,
+
     navbar: {
-      title: 'My Site',
+      title: 'OS Data Hub Documentation',
       logo: {
-        alt: 'My Site Logo',
-        src: 'img/logo.svg',
+        alt: 'OS Data Hub',
+        src: 'img/os-dev-logo.svg',
       },
       items: [
-        {
-          to: 'docs/',
-          activeBasePath: 'docs',
-          label: 'Docs',
-          position: 'left',
-        },
+        // {
+        //   to: 'docs/',
+        //   activeBasePath: 'docs',
+        //   label: 'Docs',
+        //   position: 'left',
+        // },
         {
           href: 'https://github.com/facebook/docusaurus',
           label: 'GitHub',
@@ -32,19 +34,7 @@ module.exports = {
     footer: {
       style: 'dark',
       links: [
-        {
-          title: 'Docs',
-          items: [
-            {
-              label: 'Style Guide',
-              to: 'docs/',
-            },
-            {
-              label: 'Second Doc',
-              to: 'docs/doc2/',
-            },
-          ],
-        },
+       
         {
           title: 'Community',
           items: [
@@ -84,17 +74,13 @@ module.exports = {
       '@docusaurus/preset-classic',
       {
         docs: {
+          routeBasePath: '/',
           sidebarPath: require.resolve('./sidebars.js'),
           // Please change this to your repo.
           editUrl:
             'https://github.com/facebook/docusaurus/edit/master/website/',
         },
-        blog: {
-          showReadingTime: true,
-          // Please change this to your repo.
-          editUrl:
-            'https://github.com/facebook/docusaurus/edit/master/website/blog/',
-        },
+  
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
         },

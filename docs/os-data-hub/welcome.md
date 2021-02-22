@@ -1,15 +1,47 @@
 ---
 id: welcome
-title: Style Guide
-sidebar_label: Style Guide
+title: Welcome
 slug: /
 ---
 
-Welcome to the OS Data Hub documentation. WOOT
 
-You can write content using [GitHub-flavored Markdown syntax](https://github.github.com/gfm/).
+Welcome to the OS Data Hub documentation.
+
+This demo site simply is meant to showcase what is possible using a static site generator. We used [Docusaurus](https://v2.docusaurus.io/) for this demo.
+
+**Benefits:**
+- Documentation is built directly from a [Github repository](https://github.com/johnx25bd/os-data-hub-documentation). Here, Github acts as a Content Management System. History is automatically captured. Anyone can edit or suggest changes. If configured properly, updates can be deployed instantly.  
+- Documentation is written and stored in [Markdown](https://www.markdownguide.org/), readable by both humans and machines. 
+- Sophisticated interactivity can easily be built into pages using React and [MDX](https://mdxjs.com/). 
+- Site-wide styling and customization is easy using component-driven development.
+- This demo was put together in about 5 hours - and the developer had never used Docusaurus. 
+- Strong search functionality available via [Algolia DocSearch](https://docsearch.algolia.com/) once documentation is complete.
+- Examples: [Redux](https://redux.js.org/introduction/getting-started), 
+
+:::warning
+
+This is purely a demo site - content is **not** accurate. Also, it won't work on Internet Explorer 11. You'll notice lots of design quirks because this has not be thoroughly designed - that comes next.
+
+:::
+
+If you'd like to clone this repo, run it on your local machine, and develop new features - you can! You'll need [NodeJS installed](https://www.taniarascia.com/how-to-install-and-use-node-js-and-npm-mac-and-windows/).
+
+In Terminal on Mac, or :
+
+```bash
+git clone git@github.com:johnx25bd/os-data-hub-documentation.git
+cd os-data-hub-documentation
+npm install
+npm run start
+```
+
+And that's it! You should have the site running on `http://localhost:3000/`
+
+
 
 ## Markdown Syntax
+
+You can write content using [GitHub-flavored Markdown syntax](https://github.github.com/gfm/).
 
 To serve as an example page when styling markdown based Docusaurus sites.
 
@@ -28,6 +60,7 @@ To serve as an example page when styling markdown based Docusaurus sites.
 ###### H6 - Create the best documentation
 
 ---
+
 
 ## Emphasis
 
@@ -92,7 +125,7 @@ Reference-style: ![alt text][logo]
 
 Images from any folder can be used by providing path to file. Path should be relative to markdown file.
 
-![img](../static/img/logo.svg)
+![img](../../static/img/logo.svg)
 
 ---
 

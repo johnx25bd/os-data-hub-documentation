@@ -1,5 +1,8 @@
 ---
-description: Placeholder glossary from the Geospatial Commission
+id: glossary
+title: OS Glossary
+sidebar_label: Glossary
+slug: /glossary
 ---
 
 # Glossary
