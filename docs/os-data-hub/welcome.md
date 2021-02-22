@@ -10,7 +10,11 @@ Welcome to the OS Data Hub documentation.
 This demo site simply is meant to showcase what is possible using a static site generator. We used [Docusaurus](https://v2.docusaurus.io/) for this demo.
 
 **Benefits:**
-- Documentation is built directly from a [Github repository](https://github.com/johnx25bd/os-data-hub-documentation). Here, Github acts as a Content Management System. History is automatically captured. Anyone can edit or suggest changes. If configured properly, updates can be deployed instantly.  
+- Documentation is built directly from a [Github repository](https://github.com/johnx25bd/os-data-hub-documentation). 
+  - Here, Github acts as a Content Management System. 
+  - History is automatically captured. 
+  - Anyone can edit or suggest changes - including from mobile.
+  - If configured properly, updates can be deployed instantly upon approval.  
 - Documentation is written and stored in [Markdown](https://www.markdownguide.org/), readable by both humans and machines. 
 - Sophisticated interactivity can easily be built into pages using React and [MDX](https://mdxjs.com/). 
 - Site-wide styling and customization is easy using component-driven development.
@@ -26,17 +30,18 @@ This is purely a demo site - content is **not** accurate. Also, it won't work on
 
 If you'd like to clone this repo, run it on your local machine, and develop new features - you can! You'll need [NodeJS installed](https://www.taniarascia.com/how-to-install-and-use-node-js-and-npm-mac-and-windows/).
 
-In Terminal on Mac, or :
+In Terminal on Mac:
 
 ```bash
 git clone git@github.com:johnx25bd/os-data-hub-documentation.git
 cd os-data-hub-documentation
-yarn install
-yarn start
+npm install
+npm run start
 ```
 
 And that's it! You should have the site running on `http://localhost:3000/`
 
+Below you can find info on how Markdown works. Explore the right-hand menu. We can also implement a blog, restructure the site however we want, etc etc. Btw, this demo site is being hosted on [Fleek](https://fleek.co/) - which is built on [IPFS](https://ipfs.io/) 😎
 
 
 ## Markdown Syntax

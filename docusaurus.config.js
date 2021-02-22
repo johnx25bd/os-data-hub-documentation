@@ -25,7 +25,7 @@ module.exports = {
         //   position: 'left',
         // },
         {
-          href: 'https://github.com/facebook/docusaurus',
+          href: 'https://github.com/johnx25bd/os-data-hub-documentation',
           label: 'GitHub',
           position: 'right',
         },
@@ -40,25 +40,21 @@ module.exports = {
           items: [
             {
               label: 'Stack Overflow',
-              href: 'https://stackoverflow.com/questions/tagged/docusaurus',
+              href: 'https://stackoverflow.com/questions/tagged/ordnancesurvey',
             },
-            {
-              label: 'Discord',
-              href: 'https://discordapp.com/invite/docusaurus',
-            },
+            // {
+            //   label: 'Discord',
+            //   href: 'https://discordapp.com/invite/docusaurus',
+            // },
             {
               label: 'Twitter',
-              href: 'https://twitter.com/docusaurus',
+              href: 'https://twitter.com/ordnancesurvey',
             },
           ],
         },
         {
           title: 'More',
           items: [
-            {
-              label: 'Blog',
-              to: 'blog',
-            },
             {
               label: 'GitHub',
               href: 'https://github.com/facebook/docusaurus',
@@ -78,7 +74,7 @@ module.exports = {
           sidebarPath: require.resolve('./sidebars.js'),
           // Please change this to your repo.
           editUrl:
-            'https://github.com/facebook/docusaurus/edit/master/website/',
+            'https://github.com/johnx25bd/os-data-hub-documentation/edit/main/',
         },
   
         theme: {
