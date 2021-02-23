@@ -10,7 +10,7 @@ module.exports = {
   projectName: 'os-data-hub-documentation', // Usually your repo name.
   themeConfig: {
     hideableSidebar: true,
-
+   
     navbar: {
       title: 'OS Data Hub Documentation',
       logo: {
@@ -18,23 +18,51 @@ module.exports = {
         src: 'img/os-dev-logo.svg',
       },
       items: [
-        // {
-        //   to: 'docs/',
-        //   activeBasePath: 'docs',
-        //   label: 'Docs',
-        //   position: 'left',
-        // },
+        {
+          to: 'os-maps-api/web-developers',
+          label: 'Web Developers',
+          position: 'right',
+        },
+        {
+          to: 'os-maps-api/data-scientists',
+          label: 'Data Scientists',
+          position: 'right',
+        }, 
+        {
+          to: 'os-maps-api/gis-analysts',
+          label: 'GIS Analysts',
+          position: 'right',
+        },
         {
           href: 'https://github.com/johnx25bd/os-data-hub-documentation',
-          label: 'GitHub',
+          // label: 'GitHub',
+          className: "header-github-link",
           position: 'right',
+          'aria-label': 'GitHub repository',
+        },
+ 
+        {
+          to: '/',
+          activeBasePath: '/',
+          label: 'Docs',
+          position: 'left',
+        },
+        {
+          href: "https://labs.os.uk/public/os-data-hub-examples/",
+          label: 'Code Examples',
+          position: 'left',
+        },
+        {
+          href: "https://labs.os.uk/public/os-data-hub-tutorials/",
+          label: 'Tutorials',
+          position: 'left',
         },
       ],
     },
     footer: {
       style: 'dark',
       links: [
-       
+
         {
           title: 'Community',
           items: [
@@ -76,7 +104,7 @@ module.exports = {
           editUrl:
             'https://github.com/johnx25bd/os-data-hub-documentation/edit/main/',
         },
-  
+
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
         },
