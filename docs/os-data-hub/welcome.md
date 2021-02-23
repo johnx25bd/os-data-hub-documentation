@@ -20,7 +20,23 @@ This demo site simply is meant to showcase what is possible using a static site 
 - Site-wide styling and customization is easy using component-driven development.
 - This demo was put together in about 5 hours - and the developer had never used Docusaurus. 
 - Strong search functionality available via [Algolia DocSearch](https://docsearch.algolia.com/) once documentation is complete.
-- Examples: [Redux](https://redux.js.org/introduction/getting-started), 
+- See the [Redux](https://redux.js.org/introduction/getting-started) docs as a great example.
+
+Just to show the power of this - here is a Leaflet map embedded rendering raster tiles from the OS Maps API:
+
+import ExecutionEnvironment from '@docusaurus/ExecutionEnvironment';
+import { MapContainer, TileLayer, Marker, Popup } from 'react-leaflet';
+import 'leaflet/dist/leaflet.css';
+
+const LeafletMap = () => {
+  const location = ExecutionEnvironment.canUseDOM ? window.location.href : null;
+
+  return <div>{location}</div>;
+  
+}
+
+<LeafletMap />
+
 
 :::warning
 
