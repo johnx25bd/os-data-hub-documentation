@@ -1,11 +1,8 @@
 ---
 id: welcome
-title: Welcome
+title: Documentation
 slug: /
 ---
-
-
-Welcome to the OS Data Hub documentation.
 
 This demo site simply is meant to showcase what is possible using a static site generator. We used [Docusaurus](https://v2.docusaurus.io/) for this demo.
 
@@ -22,7 +19,7 @@ This demo site simply is meant to showcase what is possible using a static site 
 - Strong search functionality available via [Algolia DocSearch](https://docsearch.algolia.com/) once documentation is complete.
 - Examples: [Redux](https://redux.js.org/introduction/getting-started), 
 
-:::warning
+:::note
 
 This is purely a demo site - content is **not** accurate. Also, it won't work on Internet Explorer 11. You'll notice lots of design quirks because this has not be thoroughly designed - that comes next.
 
@@ -43,6 +40,29 @@ And that's it! You should have the site running on `http://localhost:3000/`
 
 Below you can find info on how Markdown works. Explore the right-hand menu. We can also implement a blog, restructure the site however we want, etc etc. Btw, this demo site is being hosted on [Fleek](https://fleek.co/) - which is built on [IPFS](https://ipfs.io/) 😎
 
+## OS Data Hub Documentation
+
+### Examples
+
+Do you want to search for greenspaces within 1km of your location or display 3D buildings on your map? Would you like to display a custom map style or a beautiful OS Explorer map in your application?
+
+These copy-and-paste code examples are a great place to start. They showcase the functionality within each API and could be the building blocks to your own application.
+
+Available in various mapping libraries, you can view a live example before trying it out yourself. Get a better understanding of the functionality and see what is possible.
+
+Copy the code examples and use as they are or customise to make them your own.
+
+[View Examples](https://labs.os.uk/public/os-data-hub-examples/)
+
+Demos
+
+This is a good place to start if you want to understand more about the APIs and how you can start to integrate them into a web application.
+
+In this GitHub repository you will find code samples that demonstrate OS Maps API, OS Features API and OS Vector Tile API. Each product has its own demo and there is one showing airports that combines functionality to demonstrate how they can be used together.
+
+They all use plain HTML, CSS and JavaScript.
+
+[View Demos](https://github.com/OrdnanceSurvey/OS-Data-Hub-API-Demos)
 
 ## Markdown Syntax
 

@@ -10,7 +10,13 @@ module.exports = {
   projectName: 'os-data-hub-documentation', // Usually your repo name.
   themeConfig: {
     hideableSidebar: true,
-   
+    announcementBar: {
+      id: 'support_us', // Any value that will identify this message.
+      content: '⚠️ This is a DEMO site, meant to showcase the structure and capabilities of a new documentation site. Content is NOT accurate!! ⚠️',
+      backgroundColor: 'darkred', // Defaults to `#fff`.
+      textColor: 'white', // Defaults to `#000`.
+      isCloseable: false, // Defaults to `true`.
+    },
     navbar: {
       title: 'Data Hub',
       logo: {
