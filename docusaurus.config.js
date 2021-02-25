@@ -12,10 +12,10 @@ module.exports = {
     hideableSidebar: true,
    
     navbar: {
-      title: 'OS Data Hub Documentation',
+      title: 'Data Hub',
       logo: {
         alt: 'OS Data Hub',
-        src: 'img/os-dev-logo.svg',
+        src: 'img/logo.svg',
       },
       items: [
         {
