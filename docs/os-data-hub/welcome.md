@@ -24,18 +24,22 @@ This demo site simply is meant to showcase what is possible using a static site 
 
 Just to show the power of this - here is a Leaflet map embedded rendering raster tiles from the OS Maps API:
 
-import ExecutionEnvironment from '@docusaurus/ExecutionEnvironment';
-import { MapContainer, TileLayer, Marker, Popup } from 'react-leaflet';
-import 'leaflet/dist/leaflet.css';
+import {MapContainer, TileLayer, Marker, Popup} from "react-leaflet";
 
-const LeafletMap = () => {
-  const location = ExecutionEnvironment.canUseDOM ? window.location.href : null;
+<div style={{height: "400px", width:"100%", display: "block"}}>
+  <MapContainer center={[51.505, -0.09]} zoom={13} >
+    <TileLayer
+      attribution='&copy; <a href="http://osm.org/copyright">OpenStreetMap</a> contributors'
+      url="https://api.os.uk/maps/raster/v1/zxy/Outdoor_3857/{z}/{x}/{y}.png?key=JydUr1HO7ejqBhw0YP19W3b1GonFwmzr"
+    />
+    <Marker position={[51.505, -0.09]}>
+      <Popup>
+        A pretty CSS3 popup. <br /> Easily customizable.
+      </Popup>
+    </Marker>
+  </MapContainer>
+</div>
 
-  return <div>{location}</div>;
-  
-}
-
-<LeafletMap />
 
 
 :::warning
