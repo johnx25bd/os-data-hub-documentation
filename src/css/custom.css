@@ -72,6 +72,12 @@ h1, h2, h3, h4 {
   padding: 0 var(--ifm-pre-padding);
 }
 
+.leaflet-container {
+  width: 100%;
+   height: 70vh;
+   margin-bottom: 25px;
+   border-radius: var(--ifm-alert-border-radius);
+}
 .header-github-link:hover {
   opacity: 0.6;
 }

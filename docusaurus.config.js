@@ -8,6 +8,7 @@ module.exports = {
   favicon: 'img/favicon.ico',
   organizationName: 'OrdnanceSurvey', // Usually your GitHub org/user name.
   projectName: 'os-data-hub-documentation', // Usually your repo name.
+  stylesheets: ['//unpkg.com/leaflet@1.7.1/dist/leaflet.css'],
   themeConfig: {
     hideableSidebar: true,
     announcementBar: {
@@ -117,4 +118,7 @@ module.exports = {
       },
     ],
   ],
+
+  plugins: ['@react-leaflet/docusaurus-plugin'],
+  themes: ['@docusaurus/theme-live-codeblock'],
 };

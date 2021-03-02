@@ -17,7 +17,27 @@ This demo site simply is meant to showcase what is possible using a static site 
 - Site-wide styling and customization is easy using component-driven development.
 - This demo was put together in about 5 hours - and the developer had never used Docusaurus. 
 - Strong search functionality available via [Algolia DocSearch](https://docsearch.algolia.com/) once documentation is complete.
-- Examples: [Redux](https://redux.js.org/introduction/getting-started), 
+- See the [Redux](https://redux.js.org/introduction/getting-started) docs as a great example.
+
+Just to show the power of this - here is a Leaflet map embedded rendering raster tiles from the OS Maps API:
+
+import {MapContainer, TileLayer, Marker, Popup} from "react-leaflet";
+
+<div style={{height: "400px", width:"100%", display: "block"}}>
+  <MapContainer center={[51.505, -0.09]} zoom={13} >
+    <TileLayer
+      attribution='&copy; <a href="http://osm.org/copyright">OpenStreetMap</a> contributors'
+      url="https://api.os.uk/maps/raster/v1/zxy/Outdoor_3857/{z}/{x}/{y}.png?key=JydUr1HO7ejqBhw0YP19W3b1GonFwmzr"
+    />
+    <Marker position={[51.505, -0.09]}>
+      <Popup>
+        A pretty CSS3 popup. <br /> Easily customizable.
+      </Popup>
+    </Marker>
+  </MapContainer>
+</div>
+
+
 
 :::note
 
