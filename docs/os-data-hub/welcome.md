@@ -19,7 +19,7 @@ This demo site simply is meant to showcase what is possible using a static site 
 - Strong search functionality available via [Algolia DocSearch](https://docsearch.algolia.com/) once documentation is complete.
 - See the [Redux](https://redux.js.org/introduction/getting-started) docs as a great example.
 
-A simple demo - here is a Leaflet map embedded rendering raster tiles from the OS Maps API:
+A simplest demo - here is a Leaflet map embedded rendering raster tiles from the OS Maps API:
 
 import {MapContainer, TileLayer, Marker, Popup} from "react-leaflet";
 
