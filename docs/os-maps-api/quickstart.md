@@ -26,7 +26,17 @@ The following instructions describe how to obtain the API service URL and to gen
 
 ### QGIS
 
-_everything from QGIS section_
+QGIS is an open GIS desktop application that allows you to display, interrogate, visualise and create geospatial information. It is also capable of interacting with geo-centric APIs (for example, a WMTS).
+
+The instructions that follow demonstrate how to integrate the OS Maps API in order to produce a background map in QGIS.
+
+For the purposes of this guide the version of QGIS used is 3.4.
+
+## Integrating OS Maps API in QGIS
+
+1. Open a blank document in QGIS.
+2. Navigate to Layer → Add Layer → Add WMS/WMTS Layer...
+
 
 ### ArcGIS Online
 
