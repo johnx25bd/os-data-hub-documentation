@@ -38,35 +38,35 @@ Download and install the OSVectorTileAPI repository
 1. Navigate to the OS Data Hub demo Github repository which can be found [here](https://github.com/OrdnanceSurvey/OS-Data-Hub-API-Demos).
 2. Click the green Clone or download button.
 
-![](../assets/figure1.png)
+![](./assets/figure1.png)
 
 3. Click the option to Download ZIP.
 
-![](../assets/figure2.png)
+![](./assets/figure2.png)
 
 4. Navigate to your downloads page and unzip the OSVectorTileAPI folder from the newly downloaded file and place it in your IDE project repository. When you open up your IDE, the new files should appear automatically in your project window.
 
-![](../assets/figure3.png)
+![](./assets/figure3.png)
 
 5. The folders you have installed contain all the coding required to call and interact with the code libraries. The method differs between IDE, however, to launch the web-based application navigate to, and open the index.html file found in the OpenLayers folder. Once you have done this, run the application.
 
-![](../assets/figure5.png)
+![](./assets/figure5.png)
 
 ### Using the web-based demo
 
 1. Running the project will launch a window in your browser that looks like this:
 
-![](../assets/figure6.png)
+![](./assets/figure6.png)
 
 The demo application is now running on a temporary local server from your own computer. This sever is private to your IP address and so cannot be shared with other users. This server will exist as long as your IDE is open. You will have to run the index.html file through your IDE each time you wish to use the demo.
 
 2. To use the demo, open up your My projects page on the OS Data Hub and copy the Project API Key.
 
-![](../assets/figure7.png)
+![](./assets/figure7.png)
 
 3. Paste the key into the Project API Key box on the local server demo and run Load Map.
 
-![](../assets/figure8.png)
+![](./assets/figure8.png)
 
 This will then generate a fully styled map using the OS Vector Tile API service available for you to now explore. You can also use the code provided in the demo as the basis for your own web-browser application.
 

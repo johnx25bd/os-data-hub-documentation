@@ -1,3 +1,16 @@
+# Updating docs!
+
+To update the documentation:
+
+1. Setup. Fork and clone the repository
+- Fork the johnx25bd/os-data-hub-documentation repository onto your own Github account. 
+- Clone _your_ fork of the repo onto your local machine by running:
+
+```console
+git clone git@github.com:<your github username>/os-data-hub-documentation.git
+```
+
+
 # Website
 
 This website is built using [Docusaurus 2](https://v2.docusaurus.io/), a modern static website generator.
