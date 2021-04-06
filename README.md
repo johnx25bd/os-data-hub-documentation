@@ -1,4 +1,4 @@
-# Updating docs!
+# Updating docs.
 
 To update the documentation:
 
