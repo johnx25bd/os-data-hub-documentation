@@ -1,8 +1,9 @@
 ---
 id: welcome
-title: Documentation
+title: Documentation!!!
 slug: /
 ---
+Added information to the ...
 
 This demo site simply is meant to showcase what is possible using a static site generator. We used [Docusaurus](https://v2.docusaurus.io/) for this demo.
 
