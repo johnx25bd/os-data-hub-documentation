@@ -1,6 +1,6 @@
 ---
 id: welcome
-title: Documentation
+title: Documentation!!!
 slug: /
 ---
 
